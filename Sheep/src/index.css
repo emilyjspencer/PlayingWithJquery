@@ -1,0 +1,57 @@
+#hide
+{
+  color: pink;
+}
+
+#addsheep{
+
+  color: purple;
+}
+
+#sheep1 {
+
+  width: 80px;
+  height: 200x;
+}
+
+#sheep2 {
+  width: 80px;
+  height: 200x;
+}
+
+#sheep3 {
+  width: 80px;
+  height: 200x;
+}
+
+#sheep4 {
+  width: 80px;
+  height: 200x;
+}
+
+#sheep5 {
+  width: 80px;
+  height: 200x;
+}
+
+#sheep6 {
+  width: 80px;
+  height: 200x;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+body {
+  background: linear-gradient(55deg, #ed65f2, #83da80);
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
