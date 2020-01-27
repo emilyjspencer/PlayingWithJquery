@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(55deg, #d0abd1, hsl(182, 44%, 83%)); 
+}
+
+#bunnybutterfly {
+  width: 90px;
+  height: 110px;
+}
