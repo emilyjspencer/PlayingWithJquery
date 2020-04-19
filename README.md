@@ -1,3 +1,6 @@
+#Notes
+
+
 **jQuery**
 
 * Add jQuery to a project by adding the following code in the head section:
@@ -13,14 +16,21 @@
 <script src="jquery-3.4.1.min.js"></script>
 ```
 
+* The following code needs to be added to a project:
+
+```html
 <script>
 $(document).ready(function() {
 });
 </script>
+```
+
+The browser will run any JavaScript inside a script element, including jQuery.
 
 The code in the function will run as soon as the page loads.
 
-* **jQuery funtions** start with a $
+* **jQuery functions** start with a $
+
 * jQuery selects HTML elements using selectors and then something is done to that/those elements 
 
 
@@ -60,6 +70,53 @@ $("button").addClass("fadeOut");
 ```
 
 * **Target the same element with multiple jQuery selectors:**
+
+```html
+  $("button").addClass("animated shake");
+    $(".btn").addClass("animated bounce");
+    $("#target1").addClass("animted fadeOut");
+```
+
+* **Remove classes from an element using the removeClass() function:**
+
+```html
+$(button).removeClass("animated shake");
+```
+
+* **Change the CSS of an element using the .css() function:**
+
+* change colour of button to pink
+```html
+$("#button1").css("color", "pink");
+```
+
+* **Disable buttons** - (make them non-clickable)
+
+* **Disable the button with id of button1:**
+
+```html
+$("#button1").prop("disabled", true);
+```
+
+* **Add text and HTML tags inside an element using the .html() function:**
+
+* Add the word 'hello' to an h3 element:
+
+```html
+$("h3").html("<em>Hello</em>");
+```
+
+* **Alter text of an element using the .text() function:**
+
+```html
+$("h3").text("Hello);
+```
+
+
+
+
+
+
 
 
 * **Make buttons bounce:**
