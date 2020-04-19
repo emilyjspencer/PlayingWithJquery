@@ -1,4 +1,4 @@
-#Notes
+# Notes
 
 
 **jQuery**
@@ -111,6 +111,31 @@ $("h3").html("<em>Hello</em>");
 ```html
 $("h3").text("Hello);
 ```
+
+* **Remove an element using the .remove() function:**
+Remove the button with id of 'like':
+
+```html
+$("#like).remove();
+```
+
+* **Append elements to another element using appendTo() function:**
+Add button with id of 'love' to h3 element with id of 'h3one':
+
+```html
+$("#love").appendTo("#h3one");
+```
+
+* **Clone or make a copy of an element using the clone() function:**
+Copy a smiley element with id of smiley and add it to an h3 element with id on h3one:
+
+```html
+$("#smiley).clone().appendTo("#h3one);
+```
+
+
+
+
 
 
 
