@@ -3,6 +3,8 @@
 
 **jQuery**
 
+**jQuery is zero-indexed**
+
 * Add jQuery to a project by adding the following code in the head section:
 
 **CDN**
@@ -132,6 +134,42 @@ Copy a smiley element with id of smiley and add it to an h3 element with id on h
 ```html
 $("#smiley).clone().appendTo("#h3one);
 ```
+
+* **Target/access the parent of an element using the parent() function**
+
+* Every HTML element has a parent element from which it inherits properties.
+* **parent()** allows you to access the parent of the selected element
+
+* Give the parent element of the element with id #left-well a pink background:
+
+```html
+$("#left-well").parent().css("background-color", "pink")
+```
+
+* **Target/access the children of elements using the children() function:**
+* HTML elements can have children. These children inherit the properties of their parents.
+
+* Give the children of the left-well element a background of pink:
+```html
+$("#left-well").children().css("color", "pink")
+```
+
+* **Target a specific child element using the target:nth-child(n) CSS selector:**
+* Give the third element in each well the animated shake class:
+
+```html
+$(".target:nth-child(3)").addClass("animated shake");
+```
+
+* Give the third element in each well the bounce class:
+
+```html
+$(".target:nth-child(3)").addClass("animated bounce");
+```
+
+* **Target elements based on their positions using the :odd**
+**and :even selectors:**
+
 
 
 
